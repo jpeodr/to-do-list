@@ -1,4 +1,4 @@
-# ToDoList MVC em PHP + SQLite
+# ToDoList
 
 ## Requisitos
 
@@ -21,8 +21,3 @@ php -S localhost:8000
 ```
 http://localhost:8000
 ```
-
-## Banco de Dados
-
-- O banco SQLite fica em `database/todolist.db`  
-- Se não existir, será criado automaticamente ao rodar a aplicação.
