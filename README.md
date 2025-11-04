@@ -8,8 +8,8 @@
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/jpeodr/lista_de_tarefas.git
-cd todolist_mvc
+git clone https://github.com/jpeodr/to-do-list.git
+cd to-do-list
 ```
 
 2. Inicie o servidor PHP:
