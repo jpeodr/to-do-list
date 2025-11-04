@@ -8,7 +8,7 @@
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/jpeodr/lista_de_tarefas.git
+git clone https://github.com/jpeodr/to-do-list.git
 cd todolist_mvc
 ```
 
