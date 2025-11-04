@@ -147,7 +147,12 @@ $tarefasConcluidas = array_filter($tarefas, fn($t) => $t['status'] === 'concluid
   var modal = document.getElementById('create-modal');
   var cancel = document.getElementById('cancel-modal');
   var form = document.getElementById('create-form');
-  function show(){ modal.classList.add('open'); document.getElementById('titulo-modal').focus(); }
+  function show(){ 
+    modal.classList.add('open'); 
+    document.getElementById('titulo-modal').value = '';
+    document.getElementById('descricao-modal').value = '';
+    document.getElementById('titulo-modal').focus(); 
+  }
   function hide(){ modal.classList.remove('open'); }
   if (open) open.addEventListener('click', show);
   if (cancel) cancel.addEventListener('click', hide);
