@@ -9,7 +9,7 @@
 1. Clone o repositório:
 ```bash
 git clone https://github.com/jpeodr/to-do-list.git
-cd todolist_mvc
+cd to-do-list
 ```
 
 2. Inicie o servidor PHP:
