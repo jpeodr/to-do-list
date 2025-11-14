@@ -12,17 +12,17 @@ git clone https://github.com/jpeodr/to-do-list.git
 cd to-do-list
 ```
 
-1. Instale o PHP e o SQLite:
+2. Instale o PHP e o SQLite:
 ```bash
 sudo apt install php php-sqlite3
 ```
 
-2. Inicie o servidor PHP:
+3. Inicie o servidor PHP:
 ```bash
 php -S localhost:8000
 ```
 
-3. Abra no navegador:
+4. Abra no navegador:
 ```
 http://localhost:8000
 ```
